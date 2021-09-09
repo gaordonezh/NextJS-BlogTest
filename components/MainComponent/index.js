@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Fragment } from "react";
-import NavBar from "../NavBar";
-import Footer from "../Footer";
+import NavBar from "./../Navbar";
+import Footer from "./../Footer";
 import Head from "next/head";
 
 const Layout = ({ children, title, description, keywords, image }) => {
@@ -64,6 +64,7 @@ export default Layout;
 Layout.defaultProps = {
   title: "Yuri Manuel Montenegro Barrantes",
   description: "Página web de Yuri Manuel Montenegro Barrantes",
-  keywords: "Yuri Montenegro, Yuri, Yuri Montenegro, Blog, Noticias, Leyes, Contable",
+  keywords:
+    "Yuri Montenegro, Yuri, Yuri Montenegro, Blog, Noticias, Leyes, Contable",
   image: "https://filesdic.s3.us-east-2.amazonaws.com/imgSchool/logo-ym.png",
 };
